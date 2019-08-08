@@ -1,0 +1,85 @@
+body
+{
+	background-image: url("mainbackg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	/*height: 384px;
+	background: linear-gradient(to bottom, #000000 0%, #A0A0A0 100%)*/
+}
+
+.header {
+    background-color: rgba(0,0,0,0.3);
+    padding: 5px;
+    text-align: center;
+
+
+}
+#head1
+{
+	color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.container{
+	width: 95%;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.3);
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.container ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.container ul li{
+	list-style: none;
+	float:left;
+	width: 20%;
+	height: 300px;
+	background: skyblue;
+	margin: 40px 40px 0px 55px; 
+	box-sizing: border-box;
+	border: 2px solid white;
+
+}
+
+.container ul li .title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	 background-color: rgba(0,0,0,0.3);
+	text-align:center;
+	font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+
+.container ul li.st1{
+	background-image: url("add.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container ul li.st2{
+	background-image: url("del.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.container ul li.st4{
+	background-image: url("list.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.container ul li.st3{
+	background-image: url("modify.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
